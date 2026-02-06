@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evaluations Citations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header card">
+        <div>
+          <h1>Evaluations Citations</h1>
+        </div>
+        <div class="header-actions">
+          <a class="pill" href="citations.html">Citations only</a>
+        </div>
+      </header>
+
+
+      <main class="content">
+        <section class="video-panel card">
+          <div class="video-wrap">
+            <video id="presentation-video" controls preload="auto" poster="poster.jpg">
+              <source src="video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+        </section>
+
+        <aside class="citations citations-panel card">
+          <div class="citations-header">
+            <h2>Claim Citations</h2>
+            <p class="subtle">Select a claim to jump to that moment.</p>
+          </div>
+          <ul class="citation-list" id="citation-list"></ul>
+
+          <div class="citation-detail" id="citation-detail">
+            <div class="detail-content">
+              <p class="detail-title">Select a claim to view details.</p>
+              <div class="detail-source-row">
+                <img class="detail-logo" alt="" hidden />
+                <div class="detail-source-block">
+                  <p class="detail-source">Source details appear here.</p>
+                  <p class="detail-meta"></p>
+                </div>
+              </div>
+              <p class="detail-notes"></p>
+              <p class="detail-attribution"></p>
+              <div class="detail-actions">
+                <a class="detail-link" href="#" target="_blank" rel="noopener">Open Source</a>
+                <a class="detail-link detail-link-secondary" id="detail-citations-link" href="citations.html">More Info</a>
+              </div>
+            </div>
+            <div class="detail-image-wrap" hidden>
+              <img class="detail-image" alt="" hidden />
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="citations-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

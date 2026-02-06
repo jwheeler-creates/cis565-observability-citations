@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evaluations Citations — Sources</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero card">
+        <div>
+          <p class="eyebrow">Citations</p>
+          <h1>Evaluations — Sources</h1>
+          <p class="lead">
+            Full citation list for the presentation. Tap a claim to see details and open
+            the source.
+          </p>
+        </div>
+        <div class="hero-meta">
+          <a class="pill" href="index.html">Back to video</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="citations citations-page card" style="grid-column: 1 / -1;">
+          <div class="citations-header citations-page-header">
+            <h2>Claim Citations</h2>
+            <p class="subtle">Formatted source list with claim summaries and notes.</p>
+          </div>
+          <div class="citation-filters" id="citation-filters">
+            <label class="filter-field">
+              <span>Slide</span>
+              <select id="filter-slide">
+                <option value="all">All slides</option>
+              </select>
+            </label>
+            <label class="filter-field">
+              <span>Usage</span>
+              <select id="filter-usage">
+                <option value="all">All usage</option>
+              </select>
+            </label>
+          </div>
+          <div class="citation-description citations-page-description">
+            <h3>How to read this page</h3>
+            <p>
+              Each item includes the citation number used in the presentation, the source,
+              a short claim summary, and any evaluation notes. Use the source link to
+              open the original reference.
+            </p>
+          </div>
+          <ul class="citation-simple citations-page-list" id="citation-simple"></ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="citations-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
