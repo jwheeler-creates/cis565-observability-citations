@@ -1,4 +1,4 @@
-const video = document.getElementById("presentation-video");
+let player;
 const citationList = document.getElementById("citation-list");
 const detail = document.getElementById("citation-detail");
 const citationCards = document.getElementById("citation-cards");
@@ -466,11 +466,9 @@ if (citationList) {
     if (!button) return;
 
     const time = Number(button.getAttribute("data-time"));
-    if (!Number.isNaN(time) && video) {
-      video.currentTime = time;
-      video.play().catch(() => {
-        // Autoplay may be blocked until user interacts with controls.
-      });
+    if (!Number.isNaN(time) && player && player.seekTo) {
+      player.seekTo(time, true);
+      player.playVideo();
     }
 
     setActiveCitation(button);
@@ -501,11 +499,7 @@ const initialCitation =
 
 if (initialCitation) {
   setActiveCitation(initialCitation);
-
-  const time = Number(initialCitation.getAttribute("data-time"));
-  if (!Number.isNaN(time) && video) {
-    video.currentTime = time;
-  }
+  // Initial seek handled in onPlayerReady
 }
 
 const sortedCitations = citations
@@ -516,8 +510,8 @@ const sortedCitations = citations
   .sort((a, b) => a.time - b.time);
 
 const syncCitationWithVideo = () => {
-  if (!video || sortedCitations.length === 0) return;
-  const current = video.currentTime;
+  if (!player || !player.getCurrentTime || sortedCitations.length === 0) return;
+  const current = player.getCurrentTime();
   let activeSlug = null;
 
   for (let i = 0; i < sortedCitations.length; i += 1) {
@@ -536,6 +530,46 @@ const syncCitationWithVideo = () => {
   }
 };
 
-if (video) {
-  video.addEventListener("timeupdate", syncCitationWithVideo);
+// --- YouTube API Setup ---
+let checkInterval;
+
+// Inject YouTube API script
+const tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+const firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// Global callback for YouTube API
+window.onYouTubeIframeAPIReady = function () {
+  player = new YT.Player("presentation-video", {
+    height: "100%",
+    width: "100%",
+    videoId: "Y-ipxCTr5nY", // Replace with your actual video ID
+    playerVars: {
+      playsinline: 1,
+      modestbranding: 1,
+      rel: 0,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+};
+
+function onPlayerReady(event) {
+  if (initialCitation) {
+    const time = Number(initialCitation.getAttribute("data-time"));
+    if (!Number.isNaN(time)) {
+      player.seekTo(time, true);
+    }
+  }
+}
+
+function onPlayerStateChange(event) {
+  if (event.data === YT.PlayerState.PLAYING) {
+    checkInterval = setInterval(syncCitationWithVideo, 500);
+  } else {
+    clearInterval(checkInterval);
+  }
 }
