@@ -125,11 +125,11 @@ h1 {
   flex-direction: column;
   gap: 12px;
   animation-delay: 0.15s;
-  max-height: 80vh;
+  height: 80vh;
 }
 
 .citations-panel {
-  max-height: 80vh;
+  height: 80vh;
   overflow: hidden;
   min-height: 0;
 }
@@ -145,6 +145,7 @@ h1 {
   overflow: hidden;
   border: 1px solid var(--stroke);
   background: #0b1624;
+  height: 100%;
 }
 
 video {
