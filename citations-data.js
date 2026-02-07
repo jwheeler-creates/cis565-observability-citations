@@ -1,380 +1,362 @@
 window.CITATIONS = [
   {
-    number: 1,
-    slug: "claim-01",
-    time: 30,
-    presentation: {
-      slide: 1,
-      usage: "Header",
+    "number": 1,
+    "slug": "claim-01",
+    "time": 30,
+    "presentation": {
+      "slide": 1,
+      "usage": "Header"
     },
-    claim: "Getty image asset used as the opening science/AI visual reference.",
-    notes:
-      "Title: GettyImages-2002074589. Description: Laboratory tube in human hand. Chemistry or biology science, research and education. Poster. Vector illustration. Retrieved via Apple Keynote Creator Studio licensing.",
-    source: {
-      type: "link",
-      title: "GettyImages-2002074589",
-      author: "Getty Images",
-      year: "n.d.",
-      attribution: "Getty image asset used via Keynote Creator Studio licensing.",
-      url: "https://www.gettyimages.com/",
-      logo: "",
-    },
+    "claim": "Getty image asset used as the opening science/AI visual reference.",
+    "notes": "Title: GettyImages-2002074589. Description: Laboratory tube in human hand. Chemistry or biology science, research and education. Poster. Vector illustration. Retrieved via Apple Keynote Creator Studio licensing.",
+    "source": {
+      "type": "image",
+      "title": "GettyImages-2002074589",
+      "author": "Getty Images",
+      "year": "n.d.",
+      "attribution": "Getty image asset used via Keynote Creator Studio licensing.",
+      "logo": "assets/logos/gettyimages.png",
+      "path": "assets/sources/citation-01-getty.png"
+    }
   },
   {
-    number: 2,
-    slug: "claim-02",
-    time: 60,
-    presentation: {
-      slide: 1,
-      usage: "Body",
+    "number": 2,
+    "slug": "claim-02",
+    "time": 60,
+    "presentation": {
+      "slide": 1,
+      "usage": "Body"
     },
-    claim: "95% of organizations are getting zero return from enterprise GenAI investment.",
-    notes:
-      "Quote (p. 3): Despite $30-40 billion in enterprise investment into GenAI, this report uncovers a surprising result in that 95% of organizations are getting zero return.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "95% of organizations are getting zero return from enterprise GenAI investment.",
+    "notes": "Quote (p. 3): Despite $30-40 billion in enterprise investment into GenAI, this report uncovers a surprising result in that 95% of organizations are getting zero return.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 3,
-    slug: "claim-03",
-    time: 90,
-    presentation: {
-      slide: 1,
-      usage: "Footer",
+    "number": 3,
+    "slug": "claim-03",
+    "time": 90,
+    "presentation": {
+      "slide": 1,
+      "usage": "Footer"
     },
-    claim: "Enterprise GenAI investment is in the $30-40B range.",
-    notes:
-      "Quote (p. 3): Despite $30-40 billion in enterprise investment into GenAI. Use wording as $30-40B or up to $40B for precision.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Enterprise GenAI investment is in the $30-40B range.",
+    "notes": "Quote (p. 3): Despite $30-40 billion in enterprise investment into GenAI. Use wording as $30-40B or up to $40B for precision.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 4,
-    slug: "claim-04",
-    time: 120,
-    presentation: {
-      slide: 2,
-      usage: "Header",
+    "number": 4,
+    "slug": "claim-04",
+    "time": 120,
+    "presentation": {
+      "slide": 2,
+      "usage": "Header"
     },
-    claim: "GenAI and related technologies can automate activities that absorb 60-70% of employee time.",
-    notes:
-      "Quote (Key Insights, p. 3): Current generative AI and other technologies have the potential to automate work activities that absorb 60 to 70 percent of employees' time today.",
-    source: {
-      type: "link",
-      title: "The economic potential of generative AI: The next productivity frontier",
-      author: "McKinsey & Company",
-      year: "2023",
-      attribution: "McKinsey report citation.",
-      url: "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
-      logo: "",
-    },
+    "claim": "GenAI and related technologies can automate activities that absorb 60-70% of employee time.",
+    "notes": "Quote (Key Insights, p. 3): Current generative AI and other technologies have the potential to automate work activities that absorb 60 to 70 percent of employees' time today.",
+    "source": {
+      "type": "link",
+      "title": "The economic potential of generative AI: The next productivity frontier",
+      "author": "McKinsey & Company",
+      "year": "2023",
+      "attribution": "McKinsey report citation.",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "logo": "assets/logos/mckinsey.png"
+    }
   },
   {
-    number: 5,
-    slug: "claim-05",
-    time: 150,
-    presentation: {
-      slide: 2,
-      usage: "Body",
+    "number": 5,
+    "slug": "claim-05",
+    "time": 150,
+    "presentation": {
+      "slide": 2,
+      "usage": "Body"
     },
-    claim: "Only a small fraction of organizations move from AI experimentation to meaningful transformation.",
-    notes:
-      "Quote (p. 4): Despite high-profile investment and widespread pilot activity, only a small fraction of organizations have moved beyond experimentation to achieve meaningful business transformation.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Only a small fraction of organizations move from AI experimentation to meaningful transformation.",
+    "notes": "Quote (p. 4): Despite high-profile investment and widespread pilot activity, only a small fraction of organizations have moved beyond experimentation to achieve meaningful business transformation.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 6,
-    slug: "claim-06",
-    time: 180,
-    presentation: {
-      slide: 2,
-      usage: "Footer",
+    "number": 6,
+    "slug": "claim-06",
+    "time": 180,
+    "presentation": {
+      "slide": 2,
+      "usage": "Footer"
     },
-    claim: "The GenAI divide is driven more by implementation approach than by model quality or regulation.",
-    notes:
-      "Quote (p. 3): This divide does not seem to be driven by model quality or regulation, but seems to be determined by approach.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "The GenAI divide is driven more by implementation approach than by model quality or regulation.",
+    "notes": "Quote (p. 3): This divide does not seem to be driven by model quality or regulation, but seems to be determined by approach.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 7,
-    slug: "claim-07",
-    time: 210,
-    presentation: {
-      slide: 3,
-      usage: "Header",
+    "number": 7,
+    "slug": "claim-07",
+    "time": 210,
+    "presentation": {
+      "slide": 3,
+      "usage": "Header"
     },
-    claim: "Executives struggle to justify AI tools that do not directly move revenue or measurable costs.",
-    notes:
-      "Quote (p. 10): If I buy a tool to help my team work faster, how do I quantify that impact? How do I justify it to my CEO when it won't directly move revenue or decrease measurable costs?",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference (executive interview quote).",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Executives struggle to justify AI tools that do not directly move revenue or measurable costs.",
+    "notes": "Quote (p. 10): If I buy a tool to help my team work faster, how do I quantify that impact? How do I justify it to my CEO when it won't directly move revenue or decrease measurable costs?",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference (executive interview quote).",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 8,
-    slug: "claim-08",
-    time: 240,
-    presentation: {
-      slide: 3,
-      usage: "Body",
+    "number": 8,
+    "slug": "claim-08",
+    "time": 240,
+    "presentation": {
+      "slide": 3,
+      "usage": "Body"
     },
-    claim: "Top barriers to scaling GenAI pilots are captured in the report's barrier-ranking exhibit.",
-    notes:
-      "Exhibit (p. 11): Why GenAI pilots fail: top barriers to scaling AI in the enterprise. 1-10 frequency scale across 52 organizations.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai exhibit reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Top barriers to scaling GenAI pilots are captured in the report's barrier-ranking exhibit.",
+    "notes": "Exhibit (p. 11): Why GenAI pilots fail: top barriers to scaling AI in the enterprise. 1-10 frequency scale across 52 organizations.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai exhibit reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 9,
-    slug: "claim-09",
-    time: 270,
-    presentation: {
-      slide: 3,
-      usage: "Footer",
+    "number": 9,
+    "slug": "claim-09",
+    "time": 270,
+    "presentation": {
+      "slide": 3,
+      "usage": "Footer"
     },
-    claim: "Organizations on the right side of the GenAI divide build adaptive, embedded systems that learn from feedback.",
-    notes:
-      "Quote (p. 14): Organizations on the right side of the GenAI Divide share a common approach: they build adaptive, embedded systems that learn from feedback.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai report reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Organizations on the right side of the GenAI divide build adaptive, embedded systems that learn from feedback.",
+    "notes": "Quote (p. 14): Organizations on the right side of the GenAI Divide share a common approach: they build adaptive, embedded systems that learn from feedback.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai report reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 10,
-    slug: "claim-10",
-    time: 300,
-    presentation: {
-      slide: 4,
-      usage: "Header",
+    "number": 10,
+    "slug": "claim-10",
+    "time": 300,
+    "presentation": {
+      "slide": 4,
+      "usage": "Header"
     },
-    claim: "Executive selection criteria for GenAI vendors are summarized in the vendor-selection exhibit.",
-    notes:
-      "Exhibit (p. 15): How executives select GenAI vendors. Derived from interviews and coded by category with a 0-100% axis.",
-    source: {
-      type: "link",
-      title: "State of AI in Business 2025 Report (v0.1)",
-      author: "MIT (linked via mlq.ai)",
-      year: "2025",
-      attribution: "MIT / MLQ.ai exhibit reference.",
-      url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
-      logo: "",
-    },
+    "claim": "Executive selection criteria for GenAI vendors are summarized in the vendor-selection exhibit.",
+    "notes": "Exhibit (p. 15): How executives select GenAI vendors. Derived from interviews and coded by category with a 0-100% axis.",
+    "source": {
+      "type": "link",
+      "title": "State of AI in Business 2025 Report (v0.1)",
+      "author": "MIT",
+      "year": "2025",
+      "attribution": "MIT / MLQ.ai exhibit reference.",
+      "url": "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+      "logo": "assets/logos/mit.png"
+    }
   },
   {
-    number: 11,
-    slug: "claim-11",
-    time: 330,
-    presentation: {
-      slide: 4,
-      usage: "Body",
+    "number": 11,
+    "slug": "claim-11",
+    "time": 330,
+    "presentation": {
+      "slide": 4,
+      "usage": "Body"
     },
-    claim: "NBER Figure 15 reports GenAI exposure shares across generalized work activities.",
-    notes:
-      "Figure 15: Documenting/Recording Information (18.4%), Making Decisions and Solving Problems (14.9%), Thinking Creatively (13.0%), Working with Computers (10.8%), Interpreting the Meaning of Information for Others (10.1%), Getting Information (9.3%), Providing Consultation and Advice to Others (4.4%).",
-    source: {
-      type: "link",
-      title: "NBER Working Paper w34255",
-      author: "National Bureau of Economic Research (NBER)",
-      year: "2025",
-      attribution: "NBER Figure 15 citation.",
-      url: "https://www.nber.org/system/files/working_papers/w34255/w34255.pdf",
-      logo: "",
-    },
+    "claim": "NBER Figure 15 reports GenAI exposure shares across generalized work activities.",
+    "notes": "Figure 15: Documenting/Recording Information (18.4%), Making Decisions and Solving Problems (14.9%), Thinking Creatively (13.0%), Working with Computers (10.8%), Interpreting the Meaning of Information for Others (10.1%), Getting Information (9.3%), Providing Consultation and Advice to Others (4.4%).",
+    "source": {
+      "type": "link",
+      "title": "NBER Working Paper w34255",
+      "author": "National Bureau of Economic Research (NBER)",
+      "year": "2025",
+      "attribution": "NBER Figure 15 citation.",
+      "url": "https://www.nber.org/system/files/working_papers/w34255/w34255.pdf",
+      "logo": "assets/logos/nber.png"
+    }
   },
   {
-    number: 12,
-    slug: "claim-12",
-    time: 360,
-    presentation: {
-      slide: 4,
-      usage: "Footer",
+    "number": 12,
+    "slug": "claim-12",
+    "time": 360,
+    "presentation": {
+      "slide": 4,
+      "usage": "Footer"
     },
-    claim: "AI systems succeed at enterprise scale when organizations can operate with confidence.",
-    notes:
-      "Supporting lines: Risk concerns and cost overruns choke off scale; improving data controls, governance tracking, and application-state visibility allows enterprises to operate applications with confidence.",
-    source: {
-      type: "link",
-      title: "Overcoming two issues that are sinking gen AI programs",
-      author: "McKinsey & Company",
-      year: "2025",
-      attribution: "McKinsey article reference.",
-      url: "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/overcoming-two-issues-that-are-sinking-gen-ai-programs",
-      logo: "",
-    },
+    "claim": "AI systems succeed at enterprise scale when organizations can operate with confidence.",
+    "notes": "Supporting lines: Risk concerns and cost overruns choke off scale; improving data controls, governance tracking, and application-state visibility allows enterprises to operate applications with confidence.",
+    "source": {
+      "type": "link",
+      "title": "Overcoming two issues that are sinking gen AI programs",
+      "author": "McKinsey & Company",
+      "year": "2025",
+      "attribution": "McKinsey article reference.",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/overcoming-two-issues-that-are-sinking-gen-ai-programs",
+      "logo": "assets/logos/mckinsey.png"
+    }
   },
   {
-    number: 13,
-    slug: "claim-13",
-    time: 390,
-    presentation: {
-      slide: 5,
-      usage: "Header",
+    "number": 13,
+    "slug": "claim-13",
+    "time": 390,
+    "presentation": {
+      "slide": 5,
+      "usage": "Header"
     },
-    claim: "Trust requires traceability, transparency, and auditable governance records.",
-    notes:
-      "NIST AI 600-1: Digital content transparency can trace negative outcomes to source, improve information integrity, and uphold public trust; includes documentation and retention controls for provenance and TEVV history.",
-    source: {
-      type: "link",
-      title: "NIST AI RMF: Generative AI Profile (NIST AI 600-1)",
-      author: "NIST",
-      year: "2024",
-      attribution: "NIST AI 600-1 guidance reference.",
-      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
-      logo: "",
-    },
+    "claim": "Trust requires traceability, transparency, and auditable governance records.",
+    "notes": "NIST AI 600-1: Digital content transparency can trace negative outcomes to source, improve information integrity, and uphold public trust; includes documentation and retention controls for provenance and TEVV history.",
+    "source": {
+      "type": "link",
+      "title": "NIST AI RMF: Generative AI Profile (NIST AI 600-1)",
+      "author": "NIST",
+      "year": "2024",
+      "attribution": "NIST AI 600-1 guidance reference.",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "logo": "assets/logos/nist.png"
+    }
   },
   {
-    number: 14,
-    slug: "claim-14",
-    time: 420,
-    presentation: {
-      slide: 5,
-      usage: "Body",
+    "number": 14,
+    "slug": "claim-14",
+    "time": 420,
+    "presentation": {
+      "slide": 5,
+      "usage": "Body"
     },
-    claim: "Observability and monitoring are trust-enabling controls in AI risk management.",
-    notes:
-      "NIST AI 100-1: Ongoing testing or monitoring confirms systems are performing as intended and contributes to trustworthiness; accountability presupposes transparency.",
-    source: {
-      type: "link",
-      title: "Artificial Intelligence Risk Management Framework (NIST AI 100-1)",
-      author: "NIST",
-      year: "2023",
-      attribution: "NIST AI RMF 1.0 reference.",
-      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      logo: "",
-    },
+    "claim": "Observability and monitoring are trust-enabling controls in AI risk management.",
+    "notes": "NIST AI 100-1: Ongoing testing or monitoring confirms systems are performing as intended and contributes to trustworthiness; accountability presupposes transparency.",
+    "source": {
+      "type": "link",
+      "title": "Artificial Intelligence Risk Management Framework (NIST AI 100-1)",
+      "author": "NIST",
+      "year": "2023",
+      "attribution": "NIST AI RMF 1.0 reference.",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "logo": "assets/logos/nist.png"
+    }
   },
   {
-    number: 15,
-    slug: "claim-15",
-    time: 450,
-    presentation: {
-      slide: 5,
-      usage: "Footer",
+    "number": 15,
+    "slug": "claim-15",
+    "time": 450,
+    "presentation": {
+      "slide": 5,
+      "usage": "Footer"
     },
-    claim: "Original OpenAI-generated visual used for AI observability design context.",
-    notes:
-      "Generated via Apple Keynote OpenAI image integration with prompt: AI Observability, flat, bold color.",
-    source: {
-      type: "link",
-      title: "OpenAI-generated image asset (Keynote integration)",
-      author: "OpenAI",
-      year: "2026",
-      attribution: "Original generated visual; prompt documented in definitive sources.",
-      url: "https://openai.com/",
-      logo: "",
-    },
+    "claim": "Original OpenAI-generated visual used for AI observability design context.",
+    "notes": "Generated via Apple Keynote OpenAI image integration with prompt: AI Observability, flat, bold color.",
+    "source": {
+      "type": "image",
+      "title": "OpenAI-generated image asset (Keynote integration)",
+      "author": "OpenAI",
+      "year": "2026",
+      "attribution": "Original generated visual; prompt documented in definitive sources.",
+      "logo": "assets/logos/openai.png",
+      "path": "assets/sources/citation-15-openai-observability.png"
+    }
   },
   {
-    number: 16,
-    slug: "claim-16",
-    time: 480,
-    presentation: {
-      slide: 6,
-      usage: "Header",
+    "number": 16,
+    "slug": "claim-16",
+    "time": 480,
+    "presentation": {
+      "slide": 6,
+      "usage": "Header"
     },
-    claim: "LLM observability concepts and implementation guidance.",
-    notes:
-      "References OpenTelemetry guidance for LLM observability practices.",
-    source: {
-      type: "link",
-      title: "LLM observability",
-      author: "OpenTelemetry Blog",
-      year: "2024",
-      attribution: "OpenTelemetry blog reference.",
-      url: "https://opentelemetry.io/blog/2024/llm-observability/",
-      logo: "",
-    },
+    "claim": "LLM observability concepts and implementation guidance.",
+    "notes": "References OpenTelemetry guidance for LLM observability practices.",
+    "source": {
+      "type": "link",
+      "title": "LLM observability",
+      "author": "OpenTelemetry Blog",
+      "year": "2024",
+      "attribution": "OpenTelemetry blog reference.",
+      "url": "https://opentelemetry.io/blog/2024/llm-observability/",
+      "logo": "assets/logos/opentelemetry.png"
+    }
   },
   {
-    number: 17,
-    slug: "claim-17",
-    time: 510,
-    presentation: {
-      slide: 6,
-      usage: "Body",
+    "number": 17,
+    "slug": "claim-17",
+    "time": 510,
+    "presentation": {
+      "slide": 6,
+      "usage": "Body"
     },
-    claim: "Open community tracking of GenAI observability work in the OpenTelemetry ecosystem.",
-    notes:
-      "Community-maintained page spanning nonprofit and for-profit contributors to open-source GenAI observability efforts.",
-    source: {
-      type: "link",
-      title: "OpenTelemetry Generative AI SIG and project list",
-      author: "GitHub (open-telemetry/community)",
-      year: "2026",
-      attribution: "Community-maintained GitHub source.",
-      url: "https://github.com/open-telemetry/community/blob/main/projects/gen-ai.md",
-      logo: "",
-    },
+    "claim": "Open community tracking of GenAI observability work in the OpenTelemetry ecosystem.",
+    "notes": "Community-maintained page spanning nonprofit and for-profit contributors to open-source GenAI observability efforts.",
+    "source": {
+      "type": "link",
+      "title": "OpenTelemetry Generative AI SIG and project list",
+      "author": "GitHub (open-telemetry/community)",
+      "year": "2026",
+      "attribution": "Community-maintained GitHub source.",
+      "url": "https://github.com/open-telemetry/community/blob/main/projects/gen-ai.md",
+      "logo": "assets/logos/github.png"
+    }
   },
   {
-    number: 18,
-    slug: "claim-18",
-    time: 540,
-    presentation: {
-      slide: 6,
-      usage: "Footer",
+    "number": 18,
+    "slug": "claim-18",
+    "time": 540,
+    "presentation": {
+      "slide": 6,
+      "usage": "Footer"
     },
-    claim: "Trustworthy AI depends upon accountability.",
-    notes:
-      "Direct quote (p. 15) from NIST AI RMF 1.0.",
-    source: {
-      type: "link",
-      title: "Artificial Intelligence Risk Management Framework (NIST AI 100-1)",
-      author: "NIST",
-      year: "2023",
-      attribution: "NIST AI RMF 1.0 direct quote reference.",
-      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      logo: "",
-    },
-  },
+    "claim": "Trustworthy AI depends upon accountability.",
+    "notes": "Direct quote (p. 15) from NIST AI RMF 1.0.",
+    "source": {
+      "type": "link",
+      "title": "Artificial Intelligence Risk Management Framework (NIST AI 100-1)",
+      "author": "NIST",
+      "year": "2023",
+      "attribution": "NIST AI RMF 1.0 direct quote reference.",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "logo": "assets/logos/nist.png"
+    }
+  }
 ];

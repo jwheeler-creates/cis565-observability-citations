@@ -1,4 +1,4 @@
-# AGENTS.md — Evaluations Citations Site
+# AGENTS.md — Observability Citations Site
 
 ## Snapshot
 This repo powers a GitHub Pages site with two views:
