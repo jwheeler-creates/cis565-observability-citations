@@ -2,7 +2,7 @@ window.CITATIONS = [
   {
     "number": 1,
     "slug": "claim-01",
-    "time": 30,
+    "time": 1,
     "presentation": {
       "slide": 1,
       "usage": "Header"
@@ -22,7 +22,7 @@ window.CITATIONS = [
   {
     "number": 2,
     "slug": "claim-02",
-    "time": 60,
+    "time": 51,
     "presentation": {
       "slide": 1,
       "usage": "Body"
@@ -42,7 +42,7 @@ window.CITATIONS = [
   {
     "number": 3,
     "slug": "claim-03",
-    "time": 90,
+    "time": 60,
     "presentation": {
       "slide": 1,
       "usage": "Footer"
@@ -62,7 +62,7 @@ window.CITATIONS = [
   {
     "number": 4,
     "slug": "claim-04",
-    "time": 120,
+    "time": 85,
     "presentation": {
       "slide": 2,
       "usage": "Header"
@@ -82,7 +82,7 @@ window.CITATIONS = [
   {
     "number": 5,
     "slug": "claim-05",
-    "time": 150,
+    "time": 120,
     "presentation": {
       "slide": 2,
       "usage": "Body"
@@ -102,7 +102,7 @@ window.CITATIONS = [
   {
     "number": 6,
     "slug": "claim-06",
-    "time": 180,
+    "time": 146,
     "presentation": {
       "slide": 2,
       "usage": "Footer"
@@ -122,7 +122,7 @@ window.CITATIONS = [
   {
     "number": 7,
     "slug": "claim-07",
-    "time": 210,
+    "time": 176,
     "presentation": {
       "slide": 3,
       "usage": "Header"
@@ -142,7 +142,7 @@ window.CITATIONS = [
   {
     "number": 8,
     "slug": "claim-08",
-    "time": 240,
+    "time": 219,
     "presentation": {
       "slide": 3,
       "usage": "Body"
@@ -162,7 +162,7 @@ window.CITATIONS = [
   {
     "number": 9,
     "slug": "claim-09",
-    "time": 270,
+    "time": 247,
     "presentation": {
       "slide": 3,
       "usage": "Footer"
@@ -182,7 +182,7 @@ window.CITATIONS = [
   {
     "number": 10,
     "slug": "claim-10",
-    "time": 300,
+    "time": 267,
     "presentation": {
       "slide": 4,
       "usage": "Header"
@@ -202,7 +202,7 @@ window.CITATIONS = [
   {
     "number": 11,
     "slug": "claim-11",
-    "time": 330,
+    "time": 301,
     "presentation": {
       "slide": 4,
       "usage": "Body"
@@ -222,7 +222,7 @@ window.CITATIONS = [
   {
     "number": 12,
     "slug": "claim-12",
-    "time": 360,
+    "time": 343,
     "presentation": {
       "slide": 4,
       "usage": "Footer"
@@ -242,7 +242,7 @@ window.CITATIONS = [
   {
     "number": 13,
     "slug": "claim-13",
-    "time": 390,
+    "time": 348,
     "presentation": {
       "slide": 5,
       "usage": "Header"
@@ -262,7 +262,7 @@ window.CITATIONS = [
   {
     "number": 14,
     "slug": "claim-14",
-    "time": 420,
+    "time": 356,
     "presentation": {
       "slide": 5,
       "usage": "Body"
@@ -282,7 +282,7 @@ window.CITATIONS = [
   {
     "number": 15,
     "slug": "claim-15",
-    "time": 450,
+    "time": 372,
     "presentation": {
       "slide": 5,
       "usage": "Footer"
@@ -302,7 +302,7 @@ window.CITATIONS = [
   {
     "number": 16,
     "slug": "claim-16",
-    "time": 480,
+    "time": 372,
     "presentation": {
       "slide": 6,
       "usage": "Header"
@@ -322,7 +322,7 @@ window.CITATIONS = [
   {
     "number": 17,
     "slug": "claim-17",
-    "time": 510,
+    "time": 907,
     "presentation": {
       "slide": 6,
       "usage": "Body"
@@ -342,7 +342,7 @@ window.CITATIONS = [
   {
     "number": 18,
     "slug": "claim-18",
-    "time": 540,
+    "time": 1023,
     "presentation": {
       "slide": 6,
       "usage": "Footer"
